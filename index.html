@@ -1,41 +1,57 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Maaza Mustafa - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maaza Daleel - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-      background-color: #f9f9f9;
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(to right, #f0f4f8, #d9e2ec);
       color: #333;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    section {
-      margin-bottom: 40px;
-    }
-    .skills {
-      list-style: none;
+      margin: 0;
       padding: 0;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
     }
-    .skills li {
-      background: #3498db;
+    header {
+      background-color: #007acc;
       color: white;
-      padding: 8px 15px;
-      border-radius: 20px;
-      font-weight: bold;
-      font-size: 0.9rem;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #007acc;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #007acc;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
     }
     a {
-      color: #2980b9;
+      color: #007acc;
       text-decoration: none;
     }
     a:hover {
@@ -44,37 +60,36 @@
   </style>
 </head>
 <body>
+  <header>
+    <h1>Maaza Daleel</h1>
+    <p>Master's Graduate | Educator | Python Developer</p>
+  </header>
 
-  <h1>Maaza Mustafa</h1>
-  <p><em>Master's Graduate in Computer Science | Aspiring University Lecturer</em></p>
+  <section class="section">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I am a Master's degree graduate from Sudan, passionate about teaching and software development. I specialize in university-level instruction, especially in computer labs. Recently, I focused on Python programming and web technologies. I am currently looking for opportunities in education or software development, especially in safe and welcoming countries like India.</p>
+    </div>
 
-  <section>
-    <h2>About Me / عني</h2>
-    <p>
-      I hold a Master's degree in Computer Science and have a strong passion for teaching and academic research.
-      I am seeking opportunities to contribute to university-level education, where I can share knowledge, inspire students,
-      and continue developing in both teaching and research.
-    </p>
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+        <li>Python Programming</li>
+        <li>Teaching & Lab Supervision</li>
+        <li>HTML, CSS, Basic JavaScript</li>
+        <li>Academic Writing & Research</li>
+      </ul>
+    </div>
+
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/معزه-مصطفى-0364ab162" target="_blank">View Profile</a></p>
+    </div>
   </section>
 
-  <section>
-    <h2>Skills / المهارات</h2>
-    <ul class="skills">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Python</li>
-      <li>React</li>
-      <li>Git & GitHub</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Contact / تواصل</h2>
-    <p>Email: maaza@example.com</p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">github.com/yourusername</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/maaza-mustafa" target="_blank" rel="noopener noreferrer">linkedin.com/in/maaza-mustafa</a></p>
-  </section>
-
+  <footer>
+    <p>&copy; 2025 Maaza Daleel. All rights reserved.</p>
+  </footer>
 </body>
 </html>
